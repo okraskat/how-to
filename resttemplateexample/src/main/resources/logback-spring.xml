@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <springProfile name="develop">
+        <logger name="io.okraskat.resttemplate.CustomClientHttpRequestInterceptor" level="TRACE"/>
+    </springProfile>
+    <springProfile name="uat">
+        <logger name="io.okraskat.resttemplate.CustomClientHttpRequestInterceptor" level="DEBUG"/>
+    </springProfile>
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <logger name="ROOT" level="INFO"/>
+</configuration>
