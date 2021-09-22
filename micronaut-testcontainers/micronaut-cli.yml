@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: io.okraskat.example.micronaut
+testFramework: junit
+sourceLanguage: java
+buildTool: gradle
+features: [app-name, data, data-jpa, graalvm, gradle, h2, hibernate-jpa, java, java-application, jdbc-hikari, junit, logback, netty-server, readme, shade, yaml]

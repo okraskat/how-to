@@ -1,0 +1,15 @@
+datasources:
+  default:
+    url: jdbc:tc:postgresql:9.6.8:///databasename
+    driverClassName: org.testcontainers.jdbc.ContainerDatabaseDriver
+    username: does_not_matter
+    password: test
+
+jpa:
+  default:
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: update
+        show_sql: true
+

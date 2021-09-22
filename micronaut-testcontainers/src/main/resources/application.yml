@@ -1,0 +1,14 @@
+datasources:
+  default:
+    url: ${your_real_postgres_database}
+    driverClassName: org.postgresql.Driver
+    username: ${your_username}
+    password: ${your_password}
+
+jpa:
+  default:
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: update
+        show_sql: true
