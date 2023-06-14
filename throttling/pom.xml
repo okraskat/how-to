@@ -18,7 +18,7 @@
         <aspectj.version>1.8.8</aspectj.version>
         <cglib.version>2.2</cglib.version>
         <apache.commons.version>3.6</apache.commons.version>
-        <guava.version>29.0-jre</guava.version>
+        <guava.version>32.0.0-jre</guava.version>
     </properties>
 
     <dependencies>
